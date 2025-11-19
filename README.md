@@ -57,7 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+Ik heb hier nog niet exact naar gekeken, maar aan het toegankelijkheidsmenu te zien heeft deze website al best veel toegankelijkheidsopties van zichzelf.
 </details>
 
 
@@ -67,15 +67,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele pagina (Product): 
+  <img src="readme-images/Breakdown Productpage.png" width="375px" alt="breakdown van de hele productpagina">
+
+  ### de hele pagina (Home): 
+  <img src="readme-images/Breakdown Home (incompleet).png" width="375px" alt="breakdown van de hele homepagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
+X
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+X
 </details>
 
 
@@ -90,6 +93,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Het ging goed met het opstellen van de HTML-code, maar ik moet nog kijken hoe ik de CSS- en JavaScript-code ga schrijven.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
