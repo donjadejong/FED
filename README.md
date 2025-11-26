@@ -71,7 +71,7 @@ Ik heb hier nog niet exact naar gekeken, maar aan het toegankelijkheidsmenu te z
   <img src="readme-images/Breakdown Productpage.png" width="375px" alt="breakdown van de hele productpagina">
 
   ### de hele pagina (Home): 
-  <img src="readme-images/Breakdown Home (incompleet).png" width="375px" alt="breakdown van de hele homepagina">
+  <img src="readme-images/Home Breakdownschets.png" width="375px" alt="breakdown van de hele homepagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">

@@ -2,112 +2,169 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Ricky Rain Frog - Official Jellycat</title>
+    <title>Christmas Jellies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
+        <h1 class="visually-hidden">Jellycat Homepage</h1>
+        <p>Discover Christmas gifts.</p>
         <button aria-label="Open hamburger menu">☰</button>
         <a href="#">Jellycat logo</a>
-        <a href="#">Home / </a>
-        <a href="#">Discover / </a>
-        <a href="#">Spring & Summer</a>
       </nav>
     </header>
+
     <main>
-      <p>Jelly Hero</p>
-      <section aria-label="Product images carousel">
-        <ul>
-          <li><img src="frog.jpg" alt="Slide 1 Ricky Rain Frog" /></li>
-          <li><img src="frog2.jpg" alt="Slide 2 Ricky Rain Frog" /></li>
-          <li><img src="frog3.jpg" alt="Slide 3 Ricky Rain Frog" /></li>
-        </ul>
-        <nav>
-          <button type="button" aria-label="Previous">◀</button>
-          <button type="button" aria-label="Next">▶</button>
-        </nav>
-      </section>
-
-      <section>
-        <h1>Ricky Rain Frog</h1>
-        <p>€30.00</p>
-        <p>⭐⭐⭐⭐⭐ <a href="#">(268 Reviews)</a></p>
-        <p>Select a style</p>
-        <a href="#">How big am I?</a>
-          <select>
-            <option>Medium (Out of stock)</option>
-          </select>
-        <button type="button" disabled>Out of stock</button>
-          <select>
-            <option>Add to Wishlist</option>
-          </select>
-          <button type="button">Notify me when available</button>
-      </section>
-
-      <section>
-        <img src="cat.gif" alt="Jellycat cat">
-        <nav>
-          <a href="#">WE SAY…</a>
-          <a href="#">YOU SAY…</a>
-        </nav>
-        <img src="quoteleft.png" alt="Quote left">
-        <p>
-          Our much-loved and most famous amphibian is Ricky Rain Frog. Why the glum face? 
-          Well, it’s not easy being the only frog in town that can’t swim a stroke!<br><br>
-          Ricky is great friends with Timmy Turtle. Together they love to laze around 
-          with a mug of something hot and have a good old moan. And who can blame them?<br><br>
-          Perhaps you can turn his frown upside down.
-        </p>
-        
-        <img src="quoteright.png" alt="Quote right">
-      </section>
-      
-
-      /* bron dropdown:
-      https://www.anchorgroup.tech/blog/easy-html-dropdown-menu-coding-tutorial
-      */
-      <section>
-        <details>
-          <summary>PRODUCT DETAILS</summary>
-          <p>.....</p>
-        </details>
-        <details>
-          <summary>SAFETY & CARE</summary>
-          <p>.....</p>
-        </details>
-        <details>
-          <summary>DELIVERY INFORMATION</summary>
-          <p>.....</p>
-        </details>
-        <details>
-          <summary>RETURNS</summary>
-          <p>.....</p>
-        </details>
-        <details>
-          <summary>
-            REVIEWS ⭐5 (268 Reviews) <a href="#">Write a review</a>
-          </summary>
+      <section aria-label="Christmas Jellies">
+        <section>
+          <img src="skiing.jpg" alt="Christmas plushies playing in the snow" />
+          <h2>Say hello to our Christmas Jellies!</h2>
           <p>
-            “RICKY MY MAN” ⭐⭐⭐⭐⭐ By Ricky baker, 2025 Oct 22nd Big belly
-            grumpy smile more Big big
+            This season’s most-loved companions are here and ready for fun on -
+            and off - the slopes!
           </p>
-          <button type="button">More Reviews</button>
-        </details>
+          <a href="#">Find festive new friends</a>
+        </section>
+      </section>
+
+      <section aria-label="Navigation Featured products">
+        <header>
+          <button type="button" aria-label="Previous product">◀</button>
+          <button type="button" aria-label="Next product">▶</button>
+        </header>
+      </section>
+      <section aria-label="Products list">
+        <ul>
+          <li>
+            <img src="bunny.jpg" alt="Bashful Bunny Snow Soft Toy" />
+            <h3>Bashful Bunny Snow Soft...</h3>
+            <p>£60.00</p>
+          </li>
+
+          <li>
+            <img src="bear.jpg" alt="Bertie the Snow Bear Soft Toy" />
+            <h3>Bertie the Snow Bear Snow Soft...</h3>
+            <p>£65.00</p>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-label="Special plushie">
+        <img src="seal.jpg" alt="Spotted seal plushie" />
+        <a href="#">Explore All</a>
+      </section>
+
+      <section aria-label="Festive favourites">
+        <section>
+          <img src="racing.jpg" alt="Toys racing on the ice" />
+          <h3>Festive favourites</h3>
+          <p>
+            Tucked in a stocking or under the tree, these jellies come with
+            grins guaranteed!
+          </p>
+          <a href="#">Gift Joy</a>
+        </section>
+      </section>
+
+      <section aria-label="newsletter">
+        <h3>Sign up for joy delivered to your inbox</h3>
+        <section aria-label="Newsletter form">
+          <p>Get the latest Jelly news, launches and events by email.</p>
+          <form>
+            <label>
+              Enter your email address here
+              <input type="email" required />
+            </label>
+            <p>
+              By signing up you agree to our <a href="#">Privacy Policy</a>.
+            </p>
+            <button type="submit">Join Now</button>
+          </form>
+          <img src="images/jellycat-logo.gif" alt="Animated Jellycat logo" />
+        </section>
       </section>
     </main>
     <footer>
-      <p>Follow us for the joy of it</p>
-      <nav>
+      <section aria-label="Extra information footer">
+        <section aria-label="Shop globally">
+          <h3>Shop Globally</h3>
+          <ul>
+            <li><a href="#">UK</a></li>
+            <li><a href="#">USA & Canada</a></li>
+            <li><a href="#">Germany</a></li>
+            <li><a href="#">France</a></li>
+            <li><a href="#">Korea</a></li>
+          </ul>
+          <form>
+            <label>
+              Choose your store
+              <select>
+                <option>Europe & Rest of World</option>
+                <option>United States & Canada</option>
+                <option>Germany</option>
+                <option>France</option>
+                <option>Korea</option>
+                <option>United Kingdom</option>
+              </select>
+            </label>
+          </form>
+        </section>
+
+        <section aria-label="Shopping links">
+          <h3>Shopping</h3>
+
+          <ul>
+            <li><a href="#">Need Help?</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Gifting Options</a></li>
+            <li><a href="#">Safety & Care</a></li>
+            <li><a href="#">How We Measure</a></li>
+          </ul>
+        </section>
+
+        <section aria-label="About links">
+          <h3>About</h3>
+
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Jelly Journal</a></li>
+            <li><a href="#">Events & Experiences</a></li>
+            <li><a href="#">Press & PR</a></li>
+            <li><a href="#">Find a Stockist</a></li>
+            <li><a href="#">Jelly Jobs</a></li>
+            <li><a href="#">Newsletter Sign Up</a></li>
+          </ul>
+        </section>
+
+        <section aria-label="Legal links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Modern Slavery Statement</a></li>
+            <li><a href="#">Privacy & Cookie Policy</a></li>
+            <li><a href="#">Online Shopping Terms & Conditions</a></li>
+            <li><a href="#">Website Terms of Use</a></li>
+            <li><a href="#">Brand Protection Statement</a></li>
+            <li><a href="#">Corporate Responsibility</a></li>
+          </ul>
+        </section>
+      </section>
+
+      <section aria-label="Social media">
+        <h3>Follow us</h3>
         <ul>
-          <li><img src="Tiktok.jpg" alt="Tiktok logo" /></li>
-          <li><img src="Instagram.jpg" alt="Instagram logo" /></li>
-          <li><img src="Facebook.jpg" alt="Facebook logo" /></li>
-          <li><img src="X.jpg" alt="X logo" /></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">YouTube</a></li>
         </ul>
-      </nav>
-      <p>© Jellycat Limited 2025. All rights reserved.</p>
-      <a href="#">Cookievoorkeuren</a>
+      </section>
+
+      <p>©Jellycat Limited 2025. All rights reserved</p>
+
+      <button type="button">Cookie settings</button>
     </footer>
   </body>
 </html>
