@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Donja de Jong" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>Jellycat</title>
-
+    <title>Official Jellycat Store | Jellycat Soft Toys & Gifts</title>
     <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" href="images/tinylogo.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,192 +14,186 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <header>
-
-      <p>Discover Christmas Gifts →</p>
-
-      <h1 class="visually-hidden">Jellycat Homepage</h1>
+      <h1 hidden>Jellycat Homepage</h1>
+      <p>
+        Need your order before Christmas? Check our last delivery dates here! →
+      </p>
 
       <nav>
-        <!-- logo-->
-        <a href="" class="logo">
-          <img src="images/Jellylogo.png" alt="Jellycat logo" />
+        <div class="menu-wrapper">
+            <svg class="menu-icon" viewBox="0 0 30 30" aria-hidden="true">
+              <path d="M 5 5 H 32" />
+              <path d="M 5 15 H 32" />
+              <path d="M 5 25 H 32" />
+            </svg>
+          <!--menu icon bron: chatgpt, prompt in bronnenlijst-->
+
+          <button aria-label="search">
+            <svg width="23" height="23" aria-hidden="true">
+              <use href="icons/icons.svg#Icon_search" />
+            </svg>
+          </button>
+        </div>
+
+        <search class="search-box" role="search" aria-label="Site search">
+          <form>
+            <fieldset>
+              <label for="searchbar" class="visually-hidden">Search the collection</label>
+              <i aria-hidden="true">
+                <svg>
+                  <use href="icons/icons.svg#Icon_search"></use>
+                </svg>
+              </i>
+              <input
+                type="search"
+                id="searchbar"
+                name="q"
+                placeholder="Search our collection..."
+              />
+            </fieldset>
+          </form>
+        </search>
+        
+        <!--logo midden-->
+        <a class="main-logo">
+          <img src="images/Jellylogo.png" alt="Jellycat logo"/>
         </a>
 
+        <!--rechter menu-->
+        <div class="top-icons">
+          <a href="selector.html" aria-label="account">
+            <svg width="24" height="24" aria-hidden="true">
+              <use href="icons/icons.svg#Icon_user" />
+            </svg>
+          </a>
+
+          <a href="#" aria-label="favorites">
+            <svg width="24" height="24" aria-hidden="true">
+              <use href="icons/icons.svg#Icon_heart" />
+            </svg>
+          </a>
+
+          <button aria-label="shopping bag">
+            <svg aria-hidden="true">
+              <use href="icons/icons.svg#Icon_bag" />
+            </svg>
+          </button>
+        </div>
       </nav>
+
+      <div class="menu-links">
+        <ul>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Explore all</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Animals</a></li>
+          <li><a href="#">Amuseables</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Baby</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Personalised</a></li>
+          <li><a href="#">Gifts</a></li>
+          <li><a href="#">Jelly Journal</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
-      <section class="section1">
-        <img src="images/skismall.jpg" alt="plushies in the snow" />
-
-        <section class="section-one-text">
+      <section class="holiday-hero">
+        <img src="images/iglo.jpg" alt="Jellycat plushies in the snow" />
+        <div class="hero-text">
           <h2>Say hello to our Christmas Jellies!</h2>
           <p>
-            This seasons most-loved companions are here and ready for fun on -
+            This season's most-loved companions are here and ready for fun on -
             and off - the slopes!
           </p>
-          <a href="">Find festive new friends</a>
-        </section>
+          <a href="#">Find festive new friends</a>
+        </div>
       </section>
-
-      <section class="carrousel">
-        <h2 hidden>carrousel with products</h2>
-
-        <!-- carrousel -->
+    
+      <section class="category-cards" aria-label="Product categories">
+        <h2 class="visually-hidden">Categories</h2>
         <ul>
           <li>
-            <img src="images/bunny.jpg" alt="Bunny with blossom ears" />
-
-            <section class="carrouseltext">
-              <h2>Blossom Beige Bunny 'Petal'</h2>
-              <p>€65.00</p>
-            </section>
+            <a href="#">
+              <img src="images/seal.jpg" alt="Seal plushie" />
+              Explore All
+            </a>
           </li>
-
           <li>
-            <img src="images/bart.png" alt="Bear with snowsuit" />
-
-            <section class="carrouseltext">
-              <h2>Bartholomew Bear 'Snow Suit'</h2>
-              <p>€55.00</p>
-            </section>
+            <a href="#">
+              <img src="images/hug.jpg" alt="Two hugging plushies" />
+              Bestsellers
+            </a>
           </li>
-
           <li>
-            <img src="images/pinda.png" alt="Peanut Reindeer" />
-
-            <section class="carrouseltext">
-              <h2>Amuseables Peanut Reindeer</h2>
-              <p>From €28.00</p>
-            </section>
-          </li>
-
-          <li>
-            <img src="images/santa.jpg" alt="Santa" />
-
-            <section class="carrouseltext">
-              <h2>Jolly Santa</h2>
-              <p>From €60.00</p>
-            </section>
-          </li>
-
-          <li>
-            <img src="images/tree.jpg" alt="Christmas Tree" />
-
-            <section class="carrouseltext">
-              <h2>Amuseables Blue Spruce Christmas Tree</h2>
-              <p>From €30.00</p>
-            </section>
-          </li>
-
-          <li>
-            <img src="images/peach.jpg" alt="Peach" />
-
-            <section class="carrouseltext">
-              <h2>Amuseables Peach</h2>
-              <p>€28.00</p>
-            </section>
+            <a href="#">
+              <img src="images/post.jpg" alt="Postcard plushie" />
+              Amuseables
+            </a>
           </li>
         </ul>
-
-        <button id="last">◀</button>
-        <button id="next">▶</button>
       </section>
-
-      <section class="section3">
-        <h2 hidden>Categories</h2>
-
-        <img src="images/seal.jpg" alt="seal plushie" />
-        <a href="">Explore All</a>
-
-        <img src="images/hug.jpg" alt="hugging plushies" />
-        <a href="#">Bestsellers</a>
-
-        <img src="images/post.jpg" alt="postcard plushie" />
-        <a href="">Amuseables</a>
-      </section>
-
-      <article class="article1">
-        <img src="images/blossom.jpg" alt="Blossom bunnies" />
-
-        <section class="article1-text">
-          <h2>Born in Londen. Loved worldwide.</h2>
+    
+      <article class="brand-story">
+        <div class="story-text">
+          <h2>Born in London. Loved worldwide.</h2>
           <p>
             Welcome to the home of the Jellycat family where our mission is to
             share joy! Expect the unexpected. Embrace our gentle humor. Enjoy
             the exquisite textures and unusual colours… And if one of these
             characters makes you smile, make them part of your family too.
           </p>
-        </section>
+        </div>
+        <img class="story-img-small" src="images/blossomsmall.jpg" alt="Small Blossom bunnies plushies" />
+        <img class="story-img-large" src="images/blossombig.jpg" alt="Large Blossom bunnies plushies" />
       </article>
-    </main>
+    </main>    
 
     <footer>
       <h2 class="visually-hidden">Footer</h2>
-
-      <section>
+      <article>
         <h3>Shop Globally</h3>
         <ul>
-          <li>
-            <a href="">UK</a>
-          </li>
-          <li>
-            <a href="">USA & Canada</a>
-          </li>
-          <li>
-            <a href="">Germany</a>
-          </li>
-          <li>
-            <a href="">France</a>
-          </li>
-          <li>
-            <a href="">Korea</a>
-          </li>
+          <li><a href="#">UK</a></li>
+          <li><a href="#">USA & Canada</a></li>
+          <li><a href="#">Germany</a></li>
+          <li><a href="#">France</a></li>
+          <li><a href="#">Korea</a></li>
         </ul>
-
-        <label for="store-select" class="visually-hidden">Choose store</label>
-        <select id="store-select" name="store">
-          <option value="" disabled selected>Choose your store</option>
-          <option value="europe">Europe & Rest of World</option>
-          <option value="usa">United States & Canada</option>
-          <option value="germany">Germany</option>
-          <option value="france">France</option>
-          <option value="korea">Korea</option>
-          <option value="uk">United Kingdom</option>
-        </select>
-      </section>
+        <form>
+          <fieldset>
+            <legend class="visually-hidden">Select your store</legend>
+            <label for="store-select" class="visually-hidden">store selector</label>
+            <select id="store-select" name="ountry" aria-label="Select your store">
+              <option value="" disabled selected>Choose your store</option>
+              <option value="EU">Europe & Rest of the world</option>
+              <option value="USA & Canada">United States & Canada</option>
+              <option value="Germany">Germany</option>
+              <option value="France">France</option>
+              <option value="Korea">Korea</option>
+              <option value="UK">United Kingdom</option>
+            </select>
+          </fieldset>
+        </form>
+      </article>
 
       <hr />
 
-      <section>
+      <article>
         <h3>About</h3>
         <ul>
-          <li>
-            <a href="">Our Story</a>
-          </li>
-          <li>
-            <a href="">Jelly Journal</a>
-          </li>
-          <li>
-            <a href="">Events & Experiences</a>
-          </li>
-          <li>
-            <a href="">Press & PR</a>
-          </li>
-          <li>
-            <a href="">Find a Stockist</a>
-          </li>
-          <li>
-            <a href="">Jelly Jobs</a>
-          </li>
-          <li>
-            <a href="">Newsletter Sign Up</a>
-          </li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Jelly Journal</a></li>
+          <li><a href="#">Events & Experiences</a></li>
+          <li><a href="#">Press & PR</a></li>
+          <li><a href="#">Find a Stockist</a></li>
+          <li><a href="#">Jelly Jobs</a></li>
+          <li><a href="#">Newsletter Sign Up</a></li>
         </ul>
-      </section>
+      </article>
     </footer>
 
     <script defer src="scripts/script.js"></script>
